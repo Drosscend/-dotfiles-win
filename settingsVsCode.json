@@ -1,0 +1,70 @@
+{
+    // Editeur
+    "window.zoomLevel": 1,
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "editor.renderWhitespace": "trailing",
+    "editor.linkedEditing": true,
+    "editor.occurrencesHighlight": false,
+    "editor.suggest.insertMode": "replace",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "javascript.preferences.importModuleSpecifierEnding": "js",
+    "typescript.preferences.importModuleSpecifierEnding": "js",
+
+    // Gestions des fichiers
+    "files.autoSave": "onFocusChange",
+    "files.defaultLanguage": "markdown",
+
+    //Exploreur
+    "explorer.autoReveal": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+
+    //Worlbench
+    "workbench.tree.indent": 15,
+    "workbench.tree.renderIndentGuides": "always",
+    // "workbench.editor.enablePreview": false,
+
+    //Emmet
+    "emmet.triggerExpansionOnTab": true,
+
+    //Git
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+
+    //Thèmes
+    "workbench.colorTheme": "Tokyo Night",
+    "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+        "[Tokyo Night]": {
+            "editor.selectionBackground": "#3D59A1",
+            "editor.selectionHighlightBackground": "#3D59A1",
+        }
+    },
+
+    //Extensions
+    "gitlens.currentLine.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": true
+    },
+
+}
